@@ -1,5 +1,2 @@
-﻿  Matriz.cpp
-c:\users\diego\source\repos\proyectomatrices\proyectomatrices\matriz.cpp(54): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
-c:\users\diego\source\repos\proyectomatrices\proyectomatrices\matriz.cpp(58): warning C4805: '!=': unsafe mix of type 'int' and type 'bool' in operation
-c:\users\diego\source\repos\proyectomatrices\proyectomatrices\matriz.cpp(217): warning C4101: 'val': unreferenced local variable
+﻿  Main.cpp
   ProyectoMatrices.vcxproj -> C:\Users\Diego\source\repos\ProyectoMatrices\Debug\ProyectoMatrices.exe

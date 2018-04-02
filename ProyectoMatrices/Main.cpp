@@ -26,7 +26,8 @@ int main()
 			Matriz MatrizB;
 			MatrizA.setMatriz();
 			MatrizB.setMatriz();
-			MatrizA.guardarMatriz(MatrizA.sumaMatrices(&MatrizB));
+			if (MatrizA.sumaMatrices(&MatrizB) != NULL)
+				MatrizA.guardarMatriz(MatrizA.sumaMatrices(&MatrizB));
 		}
 		if (opcion == 2)
 		{
@@ -34,7 +35,8 @@ int main()
 			Matriz MatrizB;
 			MatrizA.setMatriz();
 			MatrizB.setMatriz();
-			MatrizA.guardarMatriz(MatrizA.restaMatrices(&MatrizB));
+			if (MatrizA.restaMatrices(&MatrizB) != NULL)
+				MatrizA.guardarMatriz(MatrizA.restaMatrices(&MatrizB));
 		}
 		if (opcion == 3)
 		{
